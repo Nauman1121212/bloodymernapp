@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.donor-preview {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 10px 16px;
+  margin: 20px 0;
+}
+
+.donor-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.donor-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.donor-list h1 {
+  text-align: center;
+}
+
+.donor-preview a {
+  text-decoration: none;
+}
+
+.donor-details h2 {
+  font-size: 20px;
+}
+
+.donor-details h3 {
+  font-size: 18px;
+  color: #f1356d;
+}
+
+.donor-details p {
+  font-size: 16px;
+  margin: 20px 0px;
+}
+
+.donor-details button {
+  background-color: #f1356d;
+  color: #ddd;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Form styling */
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+}
+
+.create button {
+  margin: 15px 0px;
+  width: 200px;
+  height: 35px;
+  color: #f1356d;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.create button:hover {
+  cursor: pointer;
+  color: #ddd;
+  background-color: #f1356d;
+}
+
+/* Search Bar */
+
+.search-bar input {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  width: 250px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.search-bar input {
+  font-size: medium;
+}
+
+/* Login and SignUp Form */
+
+.signup {
+}
+
+.signup h2 {
+  color: #f1356d;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.signup-form {
+  margin: 0px auto;
+}
+
+.signup input {
+  width: 400px;
+  height: 35px;
+  margin: 5px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.signup-btn {
+  margin: 15px 0px;
+  width: 200px;
+  height: 35px;
+  color: #f1356d;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.signup-btn:hover {
+  cursor: pointer;
+  color: #ddd;
+  background-color: #f1356d;
+}
+
+/* For Edit Donor Details */
+
+.edit-donor-details {
+  margin: 2px;
+}
+.edit-donor-details label {
+  display: block;
+}
+.edit-donor-details input {
+  display: block;
+  margin-bottom: 5px;
+  width: 350px;
+  height: 25px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.edit-donor-details button {
+  margin: 15px 10px;
+}
+
+.donor-details {
+  margin: 0px auto;
+}
+
+.donor-details h1 {
+  text-align: center;
+  color: #f1356d;
+}

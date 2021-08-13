@@ -1,0 +1,8 @@
+.navbar {
+  display: flex;
+}
+
+.links a {
+  color: black;
+  font-style: none;
+}
