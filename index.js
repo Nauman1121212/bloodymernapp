@@ -23,3 +23,10 @@ if (process.env.NODE_ENV == "production") {
 app.listen(PORT, () => {
   console.log(`Server Listening on Port: ${PORT}`);
 });
+
+// TO commit changes to github
+// 1. git status
+// 2. git add .
+// 3. git status
+// 4. git commit -m "comments about new commit"
+// 5. git push
